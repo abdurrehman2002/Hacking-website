@@ -1,0 +1,1574 @@
+* {box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.header-navbar a{
+    margin-right: 25px;
+    color: #54524f;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.header-navbar i{
+    margin-left: 25px;
+    color: #54524f;
+    font-size: 25px;
+    padding: 6px 20px 6px 90px;
+    background-color: #7c7671;
+    border-radius: 50px;
+}
+.header-wrapper{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+/* header */
+
+/* banner */
+.banner-background{
+    background-image: url("../images/Banner-img.png");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.banner-text h1{
+    padding-top: 300px;
+    font-size: 70px;
+    font-weight: bold;
+    max-width: 430px;
+    color: #d39448;
+    margin-bottom: 20px;
+}
+.banner-text h2{
+    color: #54524f;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 60px;
+
+}
+.banner-text .btn{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    color: #7f7770;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+.banner-text p{
+    font-size: 25px;
+    max-width: 550px;
+    color: #54524f;
+    margin-bottom: 50px;
+    padding-bottom: 30%;
+}
+.banner-top{
+    position: relative;
+    width: 100%;
+}
+.banner-top img{
+    width: 100%;
+}
+.banner-bottom img{
+    width: 100%;
+    bottom: 0;
+    position: absolute
+}
+
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.lets-go-heading h1{
+    color: #d39448;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.lets-go-heading p{
+    color: #7f7770;
+    margin-bottom: 70px;
+    font-size: 30px;
+    width: 60%;
+}
+.lets-go-banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lets-go-banner1 h1{
+    margin-left: 25px;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+} 
+.lets-go-banner1 p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 25px;
+}
+.lets-go-banner-bg{
+    background-color: #7f7770;
+}
+.lets-go-banner-bg img{
+    width: 100%;
+}
+.lets-go-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.lets-go-button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.lets-go-button .btn{
+    padding: 18px 70px;
+    background-color: #7f7770;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-img{
+    width: 50%;
+}
+.discount-img img{
+    width: 100%;
+}
+.discount-text h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 50px;
+    max-width: 415px;
+}
+.discount-text p{
+    color: white;
+    width: 555px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.discount-text .btn{
+    border-radius: 5px;
+    color: white;
+    background-color: #e2a355;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.discount-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discount-background{
+    background-color: #7f7770;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-img{
+    width: 50%;
+}
+.get-1-free-img img{
+    width: 100%;
+    height: 100%;
+}
+.get-1-free-text h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 50px;
+    max-width: 415px;
+}
+.get-1-free-text p{
+    color: white;
+    width: 555px;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.get-1-free-text .btn{
+    border-radius: 5px;
+    color: white;
+    background-color: #e2a355;
+    border: none;
+    padding: 20px 80px; 
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.get-1-free-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-1-free-background{
+    background-color: #deb37e;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text-background{
+    background-color: #7f7770;
+    padding: 30% 0;
+    position: relative;
+}
+.hiking-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hiking-text h1{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 45px;
+}
+
+.hiking-text p{
+    color: #dbdbdb;
+    font-size: 30px;
+    max-width: 890px;
+}
+.hiking-top img{
+    top: -5px;
+    position: absolute;
+    width: 100%;
+}
+
+.hiking-bottom img{
+    width: 100%;
+    top: -130px;
+    position: absolute;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-background{
+    background-image: url("../images/explore-world-img.png") ;
+    background-size: cover;
+    position: relative;
+}
+.explore-world-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    padding: 50% 0;
+}
+.explore-world-text h1{
+    color: #deb37e;
+    font-size: 60px;
+    font-style: italic;
+}
+.explore-world-text h2{
+    color: #54524f;
+    font-size: 60px;
+    font-style: italic;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text-wrapper{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.reviews-text{
+    margin-bottom: 100px;
+}
+.reviews-text h1{
+    font-size: 35px;
+    color: #deb37e;
+    margin-bottom: 30px;
+}
+.reviews-text p{
+    max-width: 350px;
+    font-size: 20px;
+    color: #333d42;
+}
+
+.reviews-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.reviews-heading p{
+    max-width: 850px;
+    font-size: 25px;
+    color: #3f3f3f;
+    margin-bottom: 60px;
+}
+.reviews-heading h1{
+    font-size: 35px;
+    color: #3f3f3f;
+    margin-bottom: 100px;
+}
+.reviews-heading img{
+    margin-bottom: 50px;
+}
+
+.reviews-top img{
+    top: -130px;
+    width: 100%;
+    position: relative;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.title-text h1{
+    padding-top: 200px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: white;
+}
+.title-text p{
+    margin-bottom: 60px;
+    max-width: 850px;
+    font-size: 28px;
+    color: #54524f;
+}
+.title-form {
+    position: relative;
+}
+.title-form input{
+    border-radius: 50px;
+    border: none;
+    padding: 16px 300px 16px 30px;
+    font-size: 20px;
+    position: relative;
+}
+.title-form .btn{
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: #54524f;
+    border: none;
+    padding: 16px 60px; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.title-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 250px 0;
+}
+.title-background{
+    background-color: #deb37e;
+    position: relative;
+}
+.title-top img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    color: white;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.footer p{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    max-width: 350px;
+}
+.fa { 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+.fa-instagram {
+    color: #7f7770;
+    background: white;
+}
+.fa-facebook {
+    background: white;
+    color: #7f7770;
+    margin-left: 20px;
+  }
+ 
+.fa-whatsapp {
+    background-color: white;
+    color: #7f7770;
+    margin-left: 20px;
+}
+.fa-twitter {
+    color: #7f7770;
+    background-color: white;
+    margin-left: 20px;
+}
+.footer-text h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.footer-text ul{
+    padding: 0;
+}
+.footer-text ul li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    line-height: 45px;
+}
+.footer-text{
+    margin-left: 50px;
+}
+.footer-text-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0;
+}
+.footer-background{
+    background-color: #7f7770;
+}
+.footer-top img{
+    top: -130px;
+    width: 100%;
+    position: relative;
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+    .container{
+        max-width: 1150px;
+    }
+
+/* header */
+.header-background{
+    padding: auto;
+}
+.header-navbar a{
+    margin-right: 22px;
+    color: #54524f;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.header-navbar i{
+    margin-left: 22px;
+    font-size: 22px;
+    padding: 5px 20px 5px 70px;
+}
+.header-wrapper{
+    padding: 40px 0;
+}
+/* header */
+
+/* banner */
+.banner-text h1{
+    font-size: 55px;
+    max-width: 350px;
+}
+.banner-text h2{
+    font-size: 25px;;
+
+}
+.banner-text .btn{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.banner-text p{
+    font-size: 22px;
+    max-width: 400px;
+}
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+.lets-go-heading p{
+    font-size: 25px;
+}
+.lets-go-banner1 h1{
+    margin-left: 25px;
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+} 
+.lets-go-banner1 p{
+    font-size: 18px;
+    width: 280px;
+}
+
+.lets-go-button .btn{
+    padding: 18px 60px;
+    font-size: 18px;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-text h1{
+    font-size: 40px;
+    max-width: 370px;
+}
+.discount-text p{
+    width: 460px;
+    font-size: 25px;
+}
+.discount-text .btn{
+    padding: 18px 65px;
+    font-size: 18px;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-text h1{
+    font-size: 40px;
+    max-width: 370px;
+}
+.get-1-free-text p{
+    width: 460px;
+    font-size: 25px;
+}
+.get-1-free-text .btn{
+    padding: 18px 65px;
+    font-size: 18px;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text h1{
+    font-size: 40px;
+}
+
+.hiking-text p{
+    color: #dbdbdb;
+    font-size: 25px;
+    max-width: 750px;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-background{
+    width: 110%;
+}
+.explore-world-text h1{
+    font-size: 55px;
+}
+.explore-world-text h2{
+    font-size: 55px;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text h1{
+    font-size: 32px;
+}
+.reviews-text p{
+    font-size: 18px;
+}
+
+.reviews-heading p{
+    max-width: 650px;
+    font-size: 22px;
+}
+.reviews-heading h1{
+    font-size: 32px;
+    color: #3f3f3f;
+    margin-bottom: 100px;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text h1{
+    font-size: 45px;
+}
+.title-text p{
+    max-width: 720px;
+    font-size: 25px;
+}
+.title-form input{
+    font-size: 18px;
+}
+.title-form .btn{ 
+    font-size: 18px;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    font-size: 28px;
+}
+.footer p{
+    font-size: 18px;
+    max-width: 320px;
+}
+.fa { 
+    padding: 8px;
+}
+.footer-text h1{
+    font-size: 28px;
+}
+.footer-text ul li{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+/* footer */
+
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .container{
+        max-width: 850px;
+    }
+
+
+    /* header */
+.header-navbar a{
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.header-navbar i{
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 5px 20px 5px 65px;
+}
+.header-wrapper{
+    padding: 25px 0;
+}
+/* header */
+
+/* banner */
+.banner-text h1{
+    font-size: 45px;
+    max-width: 300px;
+}
+.banner-text h2{
+    font-size: 22px;;
+
+}
+.banner-text .btn{
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.banner-text p{
+    font-size: 20px;
+    max-width: 420px;
+}
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.lets-go-heading p{
+    font-size: 20px;
+}
+
+.lets-go-banner1 img{
+    width: 100%;
+}
+.lets-go-banner-bg{
+    width: 90%;
+}
+.lets-go-banner1 h1{
+    font-size: 20px;
+} 
+.lets-go-banner1 p{
+    font-size: 15px;
+    width: 200px;
+}
+
+.lets-go-button .btn{
+    padding: 18px 50px;
+    font-size: 16px;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-text h1{
+    font-size: 35px;
+    max-width: 322px;
+}
+.discount-text p{
+    width: 400px;
+    font-size: 22px;
+}
+.discount-text .btn{
+    padding: 18px 55px;
+    font-size: 16px;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-text h1{
+    font-size: 35px;
+    max-width: 322px;
+}
+.get-1-free-text p{
+    width: 400px;
+    font-size: 22px;
+}
+.get-1-free-text .btn{
+    padding: 18px 55px;
+    font-size: 16px;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text h1{
+    font-size: 35px;
+}
+
+.hiking-text p{
+    font-size: 22px;
+    max-width: 650px;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-background{
+    width: 100%;
+}
+.explore-world-text h1{
+    font-size: 40px;
+}
+.explore-world-text h2{
+    font-size: 40px;
+}
+.reviews-top img{
+    top: -110px;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text h1{
+    font-size: 28px;
+}
+.reviews-text p{
+    font-size: 15px;
+}
+
+.reviews-heading p{
+    max-width: 600px;
+    font-size: 20px;
+}
+.reviews-heading h1{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text h1{
+    font-size: 40px;
+}
+.title-text p{
+    max-width: 680px;
+    font-size: 22px;
+}
+.title-form input{
+    font-size: 15px;
+    padding: 14px 280px 14px 28px;
+}
+.title-form .btn{ 
+    font-size: 15px;
+    padding: 14px 60px;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    font-size: 25px;
+}
+.footer p{
+    font-size: 16px;
+    max-width: 280px;
+}
+.fa { 
+    padding: 8px;
+}
+.footer-text h1{
+    font-size: 25px;
+}
+.footer-text ul li{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer-top img{
+    top: -110px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .container{
+        max-width: 800px;
+    }
+
+
+    /* header */
+.header-navbar a{
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.header-navbar i{
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 5px 20px 5px 65px;
+}
+.header-wrapper{
+    padding: 25px 0;
+}
+/* header */
+
+/* banner */
+.banner-text h1{
+    font-size: 45px;
+    max-width: 300px;
+}
+.banner-text h2{
+    font-size: 22px;;
+
+}
+.banner-text .btn{
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.banner-text p{
+    font-size: 20px;
+    max-width: 420px;
+}
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading h1{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.lets-go-heading p{
+    font-size: 20px;
+}
+
+.lets-go-banner1 img{
+    width: 100%;
+}
+.lets-go-banner-bg{
+    width: 90%;
+}
+.lets-go-banner1 h1{
+    font-size: 20px;
+} 
+.lets-go-banner1 p{
+    font-size: 15px;
+    width: 200px;
+}
+
+.lets-go-button .btn{
+    padding: 18px 50px;
+    font-size: 16px;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-text h1{
+    font-size: 35px;
+    max-width: 322px;
+}
+.discount-text p{
+    width: 400px;
+    font-size: 22px;
+}
+.discount-text .btn{
+    padding: 18px 55px;
+    font-size: 16px;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-text h1{
+    font-size: 35px;
+    max-width: 322px;
+}
+.get-1-free-text p{
+    width: 400px;
+    font-size: 22px;
+}
+.get-1-free-text .btn{
+    padding: 18px 55px;
+    font-size: 16px;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text h1{
+    font-size: 35px;
+}
+
+.hiking-text p{
+    font-size: 22px;
+    max-width: 650px;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-background{
+    width: 100%;
+}
+.explore-world-text h1{
+    font-size: 40px;
+}
+.explore-world-text h2{
+    font-size: 40px;
+}
+.reviews-top img{
+    top: -110px;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text h1{
+    font-size: 28px;
+}
+.reviews-text p{
+    font-size: 15px;
+}
+
+.reviews-heading p{
+    max-width: 600px;
+    font-size: 20px;
+}
+.reviews-heading h1{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text h1{
+    font-size: 40px;
+}
+.title-text p{
+    max-width: 680px;
+    font-size: 22px;
+}
+.title-form input{
+    font-size: 15px;
+    padding: 14px 280px 14px 28px;
+}
+.title-form .btn{ 
+    font-size: 15px;
+    padding: 14px 60px;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    font-size: 25px;
+}
+.footer p{
+    font-size: 16px;
+    max-width: 280px;
+}
+.fa { 
+    padding: 8px;
+}
+.footer-text h1{
+    font-size: 25px;
+}
+.footer-text ul li{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer-top img{
+    top: -110px;
+}
+.footer-wrapper{
+    padding: 150px 0;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .container{
+        max-width: 650px;
+    }
+
+
+    /* header */
+.header-navbar a{
+    margin-right: 12px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+
+.header-navbar i{
+    margin-bottom: 50px;
+    margin-left: 12px;
+    font-size: 15px;
+    padding: 5px 20px 5px 55px;
+}
+.header-wrapper{
+    padding: 30px  0;
+}
+/* header */
+
+/* banner */
+.banner-text h1{
+    font-size: 38px;
+    max-width: 250px;
+    padding-top: 200px;
+}
+.banner-text h2{
+    font-size: 18px;;
+
+}
+.banner-text .btn{
+    padding: 10px 30px;
+    font-size: 14px;
+    
+}
+.banner-text p{
+    font-size: 18px;
+    max-width: 380px;
+    padding-bottom: 25%;
+}
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.lets-go-heading p{
+    font-size: 18px;
+}
+
+.lets-go-banner1 img{
+    width: 100%;
+}
+.lets-go-banner-bg{
+    width: 80%;
+}
+.lets-go-banner1 h1{
+    font-size: 18px;
+    margin-left: 10px;
+} 
+.lets-go-banner1 p{
+    font-size: 12px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.lets-go-button .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-text h1{
+    font-size: 30px;
+    max-width: 278px;
+}
+.discount-text p{
+    width: 300px;
+    font-size: 18px;
+}
+.discount-text .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-text h1{
+    font-size: 30px;
+    max-width: 278px;
+}
+.get-1-free-text p{
+    width: 300px;
+    font-size: 18px;
+}
+.get-1-free-text .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text h1{
+    font-size: 30px;
+}
+
+.hiking-text p{
+    font-size: 18px;
+    max-width: 520px;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-text h1{
+    font-size: 32px;
+}
+.explore-world-text h2{
+    font-size: 30px;
+}
+.reviews-top img{
+    top: -90px;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text h1{
+    font-size: 22px;
+}
+.reviews-text p{
+    font-size: 12px;
+}
+
+.reviews-heading{
+    margin-top: 60px;
+}
+.reviews-heading p{
+    max-width: 520px;
+    font-size: 18px;
+}
+.reviews-heading h1{
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text h1{
+    font-size: 35px;
+    padding-top: 80px;
+}
+.title-text p{
+    max-width: 520px;
+    font-size: 18px;
+}
+.title-form input{
+    font-size: 12px;
+    padding: 12px 260px 12px 25px;
+}
+.title-form .btn{ 
+    font-size: 12px;
+    padding: 12px 50px;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    font-size: 18px;
+}
+.footer p{
+    font-size: 12px;
+    max-width: 220px;
+}
+.fa { 
+    padding: 6px;
+}
+.footer-text h1{
+    font-size: 18px;
+}
+.footer-text ul li{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-top img{
+    top: -90px;
+}
+.footer-wrapper{
+    padding: 80px 0;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+    .container{
+        max-width: 450px;
+    }
+
+
+    /* header */
+.header-navbar a{
+    margin-right: 8px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 80px;
+}
+
+.header-navbar i{
+    display: none;
+}
+.header-wrapper{
+    padding: 10px  0;
+}
+/* header */
+
+/* banner */
+.banner-text h1{
+    font-size: 35px;
+    max-width: 230px;
+    padding-top: 150px;
+}
+.banner-text h2{
+    font-size: 15px;
+    margin-bottom: 40px;
+
+}
+.banner-text .btn{
+    padding: 10px 25px;
+    font-size: 12px;
+    
+}
+.banner-text p{
+    font-size: 15px;
+    max-width: 280px;
+    padding-bottom: 35%;
+}
+/* banner */
+
+
+/* lets-go */
+.lets-go-heading h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.lets-go-heading p{
+    font-size: 14px;
+    width: 80%;
+}
+
+.lets-go-banner1{
+    margin-bottom: 30px;
+}
+.lets-go-banner1 img{
+    width: 100%;
+    
+}
+.lets-go-banner-bg{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lets-go-banner1 h1{
+    font-size: 22px;
+    margin-left: 30px;
+} 
+.lets-go-banner1 p{
+    font-size: 15px;
+    width: 220px;
+    margin-left: 30px;
+}
+
+.lets-go-button .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+.lets-go-wrapper{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+
+/* lets-go */
+
+
+
+/* discount */
+.discount-img img{
+    display: none;
+
+}
+.discount-img {
+    width: 0%;
+}
+.discount-text h1{
+    font-size: 30px;
+    max-width: 278px;
+}
+.discount-text p{
+    width: 300px;
+    font-size: 18px;
+}
+.discount-text .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+/* discount */
+
+/* get-1-free */
+.get-1-free-text h1{
+    font-size: 30px;
+    max-width: 278px;
+}
+.get-1-free-text p{
+    width: 300px;
+    font-size: 18px;
+}
+.get-1-free-text .btn{
+    padding: 15px 45px;
+    font-size: 12px;
+}
+/* get-1-free */
+
+
+/* hiking */
+.hiking-text h1{
+    font-size: 30px;
+}
+
+.hiking-text p{
+    font-size: 18px;
+    max-width: 520px;
+}
+/* hiking */
+
+/* explore-world */
+.explore-world-text h1{
+    font-size: 32px;
+}
+.explore-world-text h2{
+    font-size: 30px;
+}
+.reviews-top img{
+    top: -90px;
+}
+
+/* explore-world */
+
+
+/* reviews-section */
+.reviews-text h1{
+    font-size: 22px;
+}
+.reviews-text p{
+    font-size: 12px;
+}
+
+.reviews-heading{
+    margin-top: 60px;
+}
+.reviews-heading p{
+    max-width: 520px;
+    font-size: 18px;
+}
+.reviews-heading h1{
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+/* reviews-section */
+
+
+/* title */
+.title-text h1{
+    font-size: 35px;
+    padding-top: 80px;
+}
+.title-text p{
+    max-width: 520px;
+    font-size: 18px;
+}
+.title-form input{
+    font-size: 12px;
+    padding: 12px 260px 12px 25px;
+}
+.title-form .btn{ 
+    font-size: 12px;
+    padding: 12px 50px;
+}
+/* title */
+
+
+/* footer */
+.footer h1{
+    font-size: 18px;
+}
+.footer p{
+    font-size: 12px;
+    max-width: 220px;
+}
+.fa { 
+    padding: 6px;
+}
+.footer-text h1{
+    font-size: 18px;
+}
+.footer-text ul li{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer-top img{
+    top: -90px;
+}
+.footer-wrapper{
+    padding: 80px 0;
+}
+
+
+}
+
+
+
+
